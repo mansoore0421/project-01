@@ -1,0 +1,95 @@
+body{
+    padding:0;
+    margin:0;
+    background-image: linear-gradient(#fc6c48,#ef5081);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.app{
+    width: 1400px;
+    min-height:600px;
+    margin-top:100px;
+}
+.app h1{
+    color:#fff;
+    text-align: center;
+}
+.to-do{
+    width: 450px;
+    min-height: 600px;
+    max-height: 100%;
+    background-color: #f4f7fc;
+    border-radius: 5px;
+    margin-top:50px;
+}
+.to-do-calender{
+    color:#f65c65;
+    font-size:22px;
+}
+.to-do-input{
+    width: 300px;
+    height: 42px;
+    border-radius: 5px;
+    border:1px solid #ddd;
+    padding:5px;
+    margin-top: 20px;
+    margin-left:25px;
+    background-color: #fff;
+}
+.btn{
+    cursor: pointer;
+}
+.btn-add{
+    width: 60px;
+    height: 42px;
+    background-color:#ddd;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 15px;
+    pointer-events: none;
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.status{
+    letter-spacing: 1px;
+}
+ul.to-do-list{
+    list-style-type: none;
+}
+ul.to-do-list li{
+    display: block;
+    position: relative;
+    background-color: #e0e8f5;
+    margin:10px 0;
+    padding-top: 38px;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 40px;
+    border-radius: 5px;
+}
+.todo-checkbox{
+    position:absolute;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    border-radius: 2px;
+    border:1px solid #cfdcec;
+
+}
+ .todo-text{
+    position: relative;
+    margin-left: 35px;
+    display: inline-block;
+}
+.control-botton{
+    width: 100%;
+    text-align: center;
+    margin-top:50px;
+}
+.show{
+    font-size: 20px;
+    font-weight: bold;
+    border:0;
+}
